@@ -52,9 +52,11 @@ class SubscriptionPlansScreen extends StatelessWidget {
               // Plans List
               Expanded(
                 child: ListView.separated(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 20,
+                  padding: const EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                    top: 20,
+                    bottom: 40,
                   ),
                   itemCount: plans.length,
                   separatorBuilder: (_, __) => const SizedBox(height: 20),

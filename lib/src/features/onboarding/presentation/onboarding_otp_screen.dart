@@ -73,7 +73,7 @@ class OnboardingOtpScreen extends StatelessWidget {
                       onPressed: () => context.push('/onboarding/profile'),
                     ),
                   ),
-                  const SizedBox(height: 40),
+                  const SizedBox(height: 60),
                 ],
               ),
             ),

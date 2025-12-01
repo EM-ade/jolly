@@ -127,7 +127,7 @@ class _OnboardingAvatarScreenState extends State<OnboardingAvatarScreen> {
                       onPressed: () => context.push('/onboarding/subscription'),
                     ),
                   ),
-                  const SizedBox(height: 40),
+                  const SizedBox(height: 60),
                 ],
               ),
             ),

@@ -141,7 +141,7 @@ class OnboardingProfileScreen extends StatelessWidget {
                                 context.push('/onboarding/personalization'),
                           ),
                         ),
-                        const SizedBox(height: 20),
+                        const SizedBox(height: 40),
                       ],
                     ),
                   ),

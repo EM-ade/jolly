@@ -75,7 +75,7 @@ class SubscriptionScreen extends StatelessWidget {
                 // See plans button
                 SizedBox(
                   width: double.infinity,
-                  height: 56,
+                  height: 60,
                   child: ElevatedButton(
                     onPressed: () => context.go('/onboarding/plans'),
                     style: ElevatedButton.styleFrom(
@@ -133,7 +133,7 @@ class SubscriptionScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 24),
+                const SizedBox(height: 40),
               ],
             ),
           ),

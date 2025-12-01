@@ -129,7 +129,7 @@ class _OnboardingPersonalizationScreenState
                       onPressed: () => context.push('/onboarding/avatar'),
                     ),
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 40),
                 ],
               ),
             ),

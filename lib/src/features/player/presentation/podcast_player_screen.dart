@@ -385,7 +385,7 @@ class _PodcastPlayerScreenState extends ConsumerState<PodcastPlayerScreen> {
                                   ),
                                 ),
                               ),
-                              const SizedBox(height: 24),
+                              const SizedBox(height: 40),
                             ],
                           ),
                         ),
