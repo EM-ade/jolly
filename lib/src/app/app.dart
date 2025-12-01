@@ -1,20 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'router/app_router.dart';
-import 'theme/app_theme.dart'; // Assuming AppTheme exists or will be created
+import 'theme/app_theme.dart';
 
-class MyApp extends ConsumerWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Jolly Podcast',
-      theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: 'Nunito',
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF003334)),
-      ),
+      title: 'Lofty',
+      theme: AppTheme.lightTheme,
       routerConfig: router,
       debugShowCheckedModeBanner: false,
     );

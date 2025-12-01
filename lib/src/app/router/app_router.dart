@@ -10,7 +10,7 @@ import '../../features/onboarding/presentation/subscription_plans_screen.dart';
 import '../../features/auth/presentation/login_screen.dart';
 import '../../features/home/presentation/home_screen.dart';
 import '../../features/player/presentation/podcast_player_screen.dart';
-import '../../features/podcast/data/models/podcast_models.dart';
+
 import '../../core/animations/page_transitions.dart';
 
 final GoRouter router = GoRouter(
